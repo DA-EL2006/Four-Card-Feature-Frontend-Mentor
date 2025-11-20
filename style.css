@@ -1,0 +1,142 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    *{
+    margin:0px;
+    padding:0px;
+    }
+
+    body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    min-height:100vh;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    max-width:350px;
+    margin-bottom:60px;
+    padding-top: 40px;
+    
+    }
+
+    .header p{
+    color:hsl(234, 12%, 34%);
+    padding-top: 7px;
+    text-align: center;
+
+    }
+
+    h1{
+    font-size:28px;
+    }
+
+    .one {
+    font-weight:200;
+    color:hsl(234, 12%, 34%);
+
+    }
+
+    .two{
+    font-weight:600;
+    }
+
+    h2{
+    font-weight:400px;
+    font-size:22px;
+    padding-bottom:6px;
+    }
+
+    p{
+    font-weight:200;
+    font-size:16px;
+    color:hsl(212, 6%, 44%);
+    }
+    .card{
+    width:300px;
+    height:250px;
+    display:flex; 
+    flex-direction: column;
+    margin-bottom:30px;
+    box-shadow: 10px 10px 25px  rgba(0, 0, 0, 0.219);
+    border-radius:5px;
+    }
+
+    .card-content{
+    width:280px;
+    height:180px;
+    padding: 20px;
+    margin-top:10px;
+    display:flex; 
+    flex-direction: column;
+    }
+
+    .card-content img{
+    margin-top:35px;
+    align-self: flex-end;
+    margin-right:20px;
+    width: 52px;
+    height:52px;
+    }
+
+    .card-line-1{
+    height:6px;
+    background-color:hsl(180, 62%, 55%);
+    margin:0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    }
+
+        .card-line-2{
+    height:6px;
+    background-color:hsl(0, 78%, 62%);
+    margin:0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    }
+
+        .card-line-3{
+    height:6px;
+    background-color:hsl(34, 97%, 64%);
+    margin:0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    }
+
+        .card-line-4{
+    height:6px;
+    background-color:hsl(212, 86%, 64%);
+    margin:0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    }
+
+    @media(min-width:600px){
+    .CARD{
+        display:grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items:center;
+        gap:22px;
+    }
+
+    .center-column{
+        display: grid;
+        gap:10px;
+    }
+
+    .card{
+        min-width:350px;
+        height:260px;
+    }
+
+    .card-content img{
+        margin-top:40px;
+        margin-right:5px;
+        }
+    }
